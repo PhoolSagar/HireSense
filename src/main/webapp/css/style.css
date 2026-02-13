@@ -1,0 +1,143 @@
+ html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      color: white;
+    }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 120px 20px 80px 20px;
+    animation: fadeIn 1.5s ease-in;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+
+  .btn-cta {
+    background-color: #ffffff;
+    color: #4e54c8;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-cta:hover {
+    background-color: #e3e3ff;
+    color: #2c2c84;
+    transform: scale(1.05);
+  }
+
+
+  /* Feature Card */
+  
+ 
+  
+  .feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+    animation: fadeInUp 1s ease-in-out;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+ /*  Login Card */
+ .login-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .login-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px;
+      width: 100%;
+      max-width: 400px;
+      color: white;
+    }
+
+    .form-control {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+    }
+
+    .form-control::placeholder {
+      color: #ddd;
+    }
+
+
+    .btn-login {
+      background-color: #ffffff;
+      color: #4e54c8;
+      font-weight: bold;
+      border-radius: 30px;
+      width: 100%;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-login:hover {
+      background-color: #e2e2ff;
+      color: #2c2c84;
+      transform: scale(1.03);
+    }
+
+
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

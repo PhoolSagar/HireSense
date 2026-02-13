@@ -1,0 +1,9 @@
+target/
+build/
+.settings/
+.metadata/
+Servers/
+*.class
+*.log
+uploads/
+.DS_Store
