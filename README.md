@@ -1,1 +1,161 @@
-# HireSense
+# 🚀 HireSense - Smart Job Portal Web Application
+
+HireSense is a full-stack Job Portal Web Application built using Java, JSP, Servlets, JDBC, and Bootstrap.  
+
+It provides a complete recruitment system where:
+- 👨‍💼 Employers can post jobs and manage applicants  
+- 👩‍💻 Job seekers can apply for jobs and upload resumes  
+- 📧 Email notifications are sent automatically  
+- 🧠 Resume skill matching and scoring system is implemented  
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Backend
+- Java
+- JSP & Servlets
+- JDBC
+- MySQL
+- Apache Tomcat
+
+### 🔹 Frontend
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+### 🔹 Tools & Utilities
+- Eclipse IDE
+- Git & GitHub
+- JavaMail API (Email Integration)
+
+---
+
+## ✨ Features
+
+### 👨‍💼 Employer Features
+- Register/Login
+- Post jobs
+- View applicants
+- Filter by application status (Applied / Shortlisted / Rejected)
+- Shortlist or Reject applicants
+- Automatic email notification on status update
+
+### 👩‍💻 Job Seeker Features
+- Register/Login
+- Upload Resume
+- Apply for jobs
+- View applied jobs
+- Receive email notifications for:
+  - Application confirmation
+  - Shortlisting
+  - Rejection
+  - OTP verification
+
+### 🧠 Smart Resume Matching
+- Resume parsing logic
+- Skill extraction
+- Match score calculation
+- Applications ordered by score
+
+---
+
+## 📂 Project Structure
+
+<img width="367" height="498" alt="image" src="https://github.com/user-attachments/assets/a2cd57f0-e598-4e72-8036-c773d52c38fc" />
+
+
+---
+
+## 📨 Email Notifications
+
+Integrated JavaMail API to send:
+- Registration OTP
+- Password reset OTP
+- Application confirmation
+- Application status updates
+- Employer notification on new application
+
+---
+
+## 🗃️ Database Tables (Main)
+
+- users
+- jobs
+- applications
+- resume_analysis_logs
+
+---
+
+## 🚀 How To Run The Project
+
+1. Clone the repository
+   
+git clone https://github.com/PhoolSagar/HireSense.git
+
+
+3. Import into Eclipse as Existing Maven Project
+
+4. Configure:
+- Database connection in DBConnection.java
+- Email credentials in MailConfig.java
+
+4. Deploy on Apache Tomcat
+
+5. Run in browser:
+
+http://localhost:8080/HireSense
+
+---
+
+## 🔒 Security Features
+
+- Session-based authentication
+- Role-based access (User / Employer)
+- Input validation
+- Secure email authentication
+
+---
+
+## 📌 Future Improvements
+
+- Interview scheduling system
+- Admin dashboard
+- In-app notification system
+- Resume update management
+- Cloud deployment
+
+---
+
+## 👨‍💻 Developed By
+
+**Phool Sagar Singh**  
+
+B.Tech Computer Science Engineering  
+
+---
+
+## 📷 Screenshots
+<img width="2159" height="1224" alt="image" src="https://github.com/user-attachments/assets/a7ad4249-4ea1-443b-bd15-972a8695fd1b" />
+<img width="840" height="674" alt="image" src="https://github.com/user-attachments/assets/c16929ed-3530-49bf-87c4-8c98aaabbcd1" />
+<img width="768" height="695" alt="image" src="https://github.com/user-attachments/assets/feb5facc-87f1-477c-b323-af03c3df9348" />
+<img width="2128" height="1216" alt="image" src="https://github.com/user-attachments/assets/27ddac03-4d0a-46b3-821e-1f2a054c6293" />
+<img width="2133" height="1219" alt="image" src="https://github.com/user-attachments/assets/2f043cf2-4f51-4a7c-aea2-be6277460b1b" />
+<img width="2136" height="1188" alt="image" src="https://github.com/user-attachments/assets/bf1e4197-59d4-4fcb-a670-7a2cc6a9128b" />
+<img width="2127" height="1216" alt="image" src="https://github.com/user-attachments/assets/60208cd4-083a-4d05-a136-700365532159" />
+<img width="2132" height="1222" alt="image" src="https://github.com/user-attachments/assets/d092812b-92a2-454c-8fef-02399be39fcd" />
+
+
+
+
+
+
+
+
+
+---
+
+## ⭐ If You Like This Project
+
+Give it a star on GitHub ⭐
