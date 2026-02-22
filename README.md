@@ -137,12 +137,29 @@ B.Tech Computer Science Engineering
 ---
 
 ## 📷 Screenshots
+
+# Home page
 <img width="2159" height="1224" alt="image" src="https://github.com/user-attachments/assets/a7ad4249-4ea1-443b-bd15-972a8695fd1b" />
-<img width="840" height="674" alt="image" src="https://github.com/user-attachments/assets/c16929ed-3530-49bf-87c4-8c98aaabbcd1" />
+
+---
+# Login Page
+<img width="1228" height="781" alt="Screenshot 2026-02-12 192917" src="https://github.com/user-attachments/assets/d949acd0-a75c-40eb-a779-66713717984a" />
+
+---
+# SignIn Page
 <img width="768" height="695" alt="image" src="https://github.com/user-attachments/assets/feb5facc-87f1-477c-b323-af03c3df9348" />
+
+---
+# User Dashboard
 <img width="2128" height="1216" alt="image" src="https://github.com/user-attachments/assets/27ddac03-4d0a-46b3-821e-1f2a054c6293" />
+
+---
+# Employer Dashboard
 <img width="2133" height="1219" alt="image" src="https://github.com/user-attachments/assets/2f043cf2-4f51-4a7c-aea2-be6277460b1b" />
 <img width="2136" height="1188" alt="image" src="https://github.com/user-attachments/assets/bf1e4197-59d4-4fcb-a670-7a2cc6a9128b" />
+
+---
+# Admin Dashboard
 <img width="2127" height="1216" alt="image" src="https://github.com/user-attachments/assets/60208cd4-083a-4d05-a136-700365532159" />
 <img width="2132" height="1222" alt="image" src="https://github.com/user-attachments/assets/d092812b-92a2-454c-8fef-02399be39fcd" />
 
