@@ -16,7 +16,7 @@ It provides a complete recruitment system where:
 - Java
 - JSP & Servlets
 - JDBC
-- MySQL
+- MySQL 
 - Apache Tomcat
 
 ### 🔹 Frontend
