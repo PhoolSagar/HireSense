@@ -6,7 +6,7 @@ It provides a complete recruitment system where:
 - 👨‍💼 Employers can post jobs and manage applicants  
 - 👩‍💻 Job seekers can apply for jobs and upload resumes  
 - 📧 Email notifications are sent automatically   
-- 🧠 Resume skill matching and scoring system is implemented  
+- 🧠 Resume skill matching and scoring system is implemented 
 
 ---
 
