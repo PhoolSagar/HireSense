@@ -2,7 +2,7 @@
 
 HireSense is a full-stack Job Portal Web Application built using Java, JSP, Servlets, JDBC, and Bootstrap.  
 
-It provides a complete recruitment system where:
+It provides a complete recruitment system where: 
 - 👨‍💼 Employers can post jobs and manage applicants  
 - 👩‍💻 Job seekers can apply for jobs and upload resumes  
 - 📧 Email notifications are sent automatically  
